@@ -3,15 +3,15 @@ Bloomsday 2022
 
 Inspired by my favourite passage from Ulyses we have an interactive sound and vision experience. 
 [sirxemic](https://github.com/sirxemic/jquery.ripples), provides cool WebGL ripple effects. 
-Ocean sounds courtesy of [Anthousai]{https://freesound.org/people/Anthousai/).
-Water image courtesy of [J K on Unsplash]( a link ).
-Text by James Joyce.
+Ocean sounds courtesy of [Anthousai](https://freesound.org/people/Anthousai/).
+Water image courtesy of [@joke03](https://unsplash.com/@joke03).
+Text by James Joyce, with thanks to [Project Gutenberg](https://www.gutenberg.org/) for the transcription.
 
 Text read by
 ------------
 
-At the time of writing the text is read mainly by [pico2wave]( alink) with stereo effects added using
-[ffmpeg](a link). My plan is to add a more diverse set of recorded voices to the mix. To add yours 
+At the time of writing the text is read mainly by [pico2wave](https://www.openhab.org/addons/voice/picotts/) with stereo effects added using
+[ffmpeg](https://ffmpeg.org/). My plan is to add a more diverse set of recorded voices to the mix. To add yours 
 record your favourite line and get in touch.
 
 | Number | Script | Who |
