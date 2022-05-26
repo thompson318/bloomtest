@@ -1,15 +1,15 @@
 {
-  "name": "jquery.ripples",
-  "version": "0.6.3",
-  "description": "Add a water ripple effect to background images using WebGL.",
+  "name": "Bloomsday 2022",
+  "version": "1.0",
+  "description": "A celebration of Bloomsday 2022",
   "keywords": [
-    "jquery",
-    "jquery-plugin",
+    "bloomsday",
+    "joyce",
     "water",
     "ripples",
     "WebGL",
-    "background",
-    "effect"
+    "persevering penetrativeness",
+    "maelstroms"
   ],
   "scripts": {
     "build": "rollup -c build/rollup.config.js",

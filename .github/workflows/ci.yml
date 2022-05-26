@@ -10,8 +10,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          yarn install
-          yarn run webpack
+          npm build
 
       - name: lint
         run: |
