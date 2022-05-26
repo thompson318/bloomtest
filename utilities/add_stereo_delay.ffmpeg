@@ -1,0 +1,5 @@
+ffmpeg -i c1_only.wav -filter_complex 'adelay=0|0050' test_delay.wav
+
+#https://stackoverflow.com/questions/71566185/delay-only-one-channel-of-audio-stream-in-mp4-file
+#adelay takes a sequence of delays in milliseconds, separated by |, and stereo channel layout is LEFT|RIGHT so set the 2nd delay to be 2000 ms.
+
