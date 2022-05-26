@@ -10,6 +10,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
+          npm install
           npm run build
 
       - name: Deploy from bd2022 🚀
