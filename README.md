@@ -1,34 +1,78 @@
-jQuery Ripples Plugin
-=====================
+Bloomsday 2022
+==============
+
+Inspired by my favourite passage from Ulyses we have an interactive sound and vision experience. 
+[sirxemic](https://github.com/sirxemic/jquery.ripples), provides cool WebGL ripple effects. 
+Ocean sounds courtesy of [Anthousai]{https://freesound.org/people/Anthousai/).
+Water image courtesy of [J K on Unsplash]( a link ).
+Text by James Joyce.
+
+Text read by
+------------
+
+At the time of writing the text is read mainly by [pico2wave]( alink) with stereo effects added using
+[ffmpeg](a link). My plan is to add a more diverse set of recorded voices to the mix. To add yours 
+record your favourite line and get in touch.
+
+| Number | Script | Who |
+|--------|--------|-----|
+| 00 | What in water did Bloom, waterlover, drawer of water, watercarrier, returning to the range, admire? | pico |
+| 01 | Its universality: | pico |
+| 02 | its democratic equality and constancy to its nature in seeking its own level: | pico |
+| 03 | its vastness in the ocean of Mercator’s projection: | pico |
+| 04 | its unplumbed profundity in the Sundam trench of the Pacific exceeding 8000 fathoms: | pico |
+| 05 | the restlessness of its waves and surface particles visiting in turn all points of its seaboard: | pico |
+| 06 | the independence of its units: | pico |
+| 07 | the variability of states of sea: | pico |
+| 08 | its hydrostatic quiescence in calm: | pico |
+| 09 | its hydrokinetic turgidity in neap and spring tides: | pico |
+| 10 | its subsidence after devastation: | pico |
+| 11 | its sterility in the circumpolar icecaps, arctic and antarctic: | pico |
+| 12 | its climatic and commercial significance: | pico |
+| 13 | its preponderance of 3 to 1 over the dry land of the globe: | pico |
+| 14 | its indisputable hegemony extending in square leagues over all the region below the subequatorial tropic of Capricorn: | pico |
+| 15 | the multisecular stability of its primeval basin: | pico |
+| 16 | its luteofulvous bed: | pico |
+| 17 | its capacity to dissolve and hold in solution all soluble substances including millions of tons of the most precious metals: | pico |
+| 18 | its slow erosions of peninsulas and islands, its persistent formation of homothetic islands, peninsulas and downwardtending promontories: | pico |
+| 19 | its alluvial deposits: | pico |
+| 20 | its weight and volume and density: | pico |
+| 21 | its imperturbability in lagoons and highland tarns: | pico |
+| 22 | its gradation of colours in the torrid and temperate and frigid zones: | pico |
+| 23 | its vehicular ramifications in continental lakecontained streams and confluent oceanflowing rivers with their tributaries and transoceanic currents, gulfstream, north and south equatorial courses: | pico |
+| 24 | its violence in seaquakes, waterspouts, Artesian wells, eruptions, torrents, eddies, freshets, spates, groundswells, watersheds, waterpartings, geysers, cataracts, whirlpools, maelstroms, inundations, deluges, cloudbursts: | pico |
+| 25 | its vast circumterrestrial ahorizontal curve: | pico |
+| 26 | its secrecy in springs and latent humidity, revealed by rhabdomantic or hygrometric instruments and exemplified by the well by the hole in the wall at Ashtown gate, saturation of air, distillation of dew: | pico |
+| 27 | the simplicity of its composition, two constituent parts of hydrogen with one constituent part of oxygen: | pico |
+| 28 | its healing virtues: | pico |
+| 29 | its buoyancy in the waters of the Dead Sea: | pico |
+| 30 | its persevering penetrativeness in runnels, gullies, inadequate dams, leaks on shipboard: | pico |
+| 31 | its properties for cleansing, quenching thirst and fire, nourishing vegetation: | pico |
+| 32 | its infallibility as paradigm and paragon: | pico |
+| 33 | its metamorphoses as vapour, mist, cloud, rain, sleet, snow, hail: | pico |
+| 34 | its strength in rigid hydrants: | pico |
+| 35 | its variety of forms in loughs and bays and gulfs and bights and guts and lagoons and atolls and archipelagos and sounds and fjords and minches and tidal estuaries and arms of sea: | pico |
+| 36 | its solidity in glaciers, icebergs, icefloes: | pico |
+| 37 | its docility in working hydraulic millwheels, turbines, dynamos, electric power stations, bleachworks, tanneries, scutchmills: | pico |
+| 38 | its utility in canals, rivers, if navigable, floating and graving docks: | pico |
+| 39 | its potentiality derivable from harnessed tides or watercourses falling from level to level: | pico |
+| 40 | its submarine fauna and flora (anacoustic, photophobe), numerically, if not literally, the inhabitants of the globe: | pico |
+| 41 | its ubiquity as constituting 90 % of the human body: | pico |
+| 42 | the noxiousness of its effluvia in lacustrine marshes, pestilential fens, faded flowerwater, stagnant pools in the waning moon. | pico |
+
 
 By the powers of WebGL, add a layer of water to your HTML elements which will ripple by cursor interaction!
 
-Important: this plugin requires the WebGL extension `OES_texture_float` (and `OES_texture_float_linear` for a better effect) and works only with same-origin images (see [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) for more information on using cross-origin requested images).
+Important: this plugin requires the WebGL extension `OES_texture_float` (and `OES_texture_float_linear` for a better effect).
 
-Click [here](http://sirxemic.github.io/jquery.ripples/) for a demo and to see how to use it.
+Click [here](http://thompson318.github.io/Bloomsday/) to try it out.
 
-Usage
------
 
-Include the script at the end of your page after including jQuery, or when you are using bundling tools such as Webpack or Browserify, simply import it into your bundle.
+Contribute your own recording
+-----------------------------
 
-The quickest way to use this plugin on an element is to ensure that the element has a `background-image` set (currently only URLs are supported), then initialize the plugin as follows:
 
-```js
-$(selector).ripples();
-```
 
-Optionally you can tweak the behavior and appearance by initializing it with options (See the [options secton](#options) for the full list of options):
-
-```js
-$(selector).ripples({
-  dropRadius: ...,
-  perturbance: ...,
-  ...
-});
-```
-
-The plugin also has several methods to programmatically add drops, show, hide or remove the effects among other things. See the [methods section](#methods) for more details.
 
 Options
 -------
