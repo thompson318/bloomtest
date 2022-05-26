@@ -10,11 +10,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          npm build
-
-      - name: lint
-        run: |
-          yarn lint
+          npm run build
 
       - name: Deploy from bd2022 🚀
         if: github.ref == 'refs/heads/bd2022'
