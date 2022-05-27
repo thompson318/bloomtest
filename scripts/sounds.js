@@ -1,6 +1,17 @@
 const water = document.getElementById('watersound');
 water.volume = 0.90;
-water.play()
+
+
+let playAttempt = setInterval(() => {
+  water.play()
+    .then(() => {
+      clearInterval(playAttempt);
+    })
+    .catch(error => {
+      console.log('Unable to play the sound, User has not interacted yet.');
+    });
+}, 500);
+
 
 //let x = 0
 //const soundFiles = 2
