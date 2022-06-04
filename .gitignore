@@ -4,6 +4,9 @@ logs
 npm-debug.log*
 
 *.wav
+build/*
+
+
 # Runtime data
 pids
 *.pid
