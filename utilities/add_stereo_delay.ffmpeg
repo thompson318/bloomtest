@@ -1,4 +1,18 @@
-ffmpeg -i c1_only.wav -filter_complex 'adelay=0|0050' test_delay.wav
+rm runit.bash
+for file in "$@"
+do
+	echo "$file" $RANDOM
+	right_sound=$(echo "scale=2; $RANDOM/32767" | bc)
+	left_sound=$(echo "1 - $right_sound" | bc)
+	outname0=${file%.*}_panned.wav
+	outname1=${file%.*}_panned.mp3
+	echo $right_sound $left_sound $outname
+	echo "ffmpeg -i $file -af pan='stereo|c0=$right_sound*c0|c1=${left_sound}*c0' $outname0" >> runit.bash
+	echo "ffmpeg -i $outname0 -codec:a libmp3lame -qscale:a 2 $outname1" >> runit.bash 
+done
+
+exit
+#ffmpeg -i c1_only.wav -filter_complex 'adelay=0|0050' test_delay.wav
 
 #https://stackoverflow.com/questions/71566185/delay-only-one-channel-of-audio-stream-in-mp4-file
 #adelay takes a sequence of delays in milliseconds, separated by |, and stereo channel layout is LEFT|RIGHT so set the 2nd delay to be 2000 ms.
