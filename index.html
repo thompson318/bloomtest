@@ -93,6 +93,10 @@ code { font-size: 0.8em; display: inline; }
 .code-cbracket { font-weight:bold }
 .code-number { color:#ffcd22 }
 
+#startbutton {
+  object-fit: contain;
+}
+
 </style>
 </head>
 <body>
@@ -100,7 +104,7 @@ code { font-size: 0.8em; display: inline; }
 <main>
 	<header>
 	</header>
-  <img id='startbutton' src='images/play.png' alt='Press to Start' height="100%" width="100%" onclick="startplay();"></img>
+   <img id='startbutton' src='images/play.png' alt='Press to Start' height="100%" width="100%" onclick="startplay();"></img>
 </main>
 
 
@@ -142,6 +146,10 @@ $(document).ready(function() {
 
 <audio title="Water Sound" controls autoplay loop id='watersound'>
   <source src="sounds/587759__inchadney__northsea_q2.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+<audio title="Narration" controls id='narration'>
+  <source src="sounds/00_panned.mp3" type="audio/mp3">
 Your browser does not support the audio element.
 </audio>
 <script src="scripts/sounds.js"></script>
