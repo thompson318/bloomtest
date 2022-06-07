@@ -112,37 +112,7 @@ code { font-size: 0.8em; display: inline; }
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="scripts/jquery.ripples.js"></script>
-<script>
-$(document).ready(function() {
-	try {
-		$('body').ripples({
-			resolution: 512,
-			dropRadius: 20, //px
-			perturbance: 0.04,
-		});
-		$('main').ripples({
-			resolution: 128,
-			dropRadius: 10, //px
-			perturbance: 0.04,
-			interactive: false
-		});
-	}
-	catch (e) {
-		$('.error').show().text(e);
-	}
-
-	// Automatic drops
-	setInterval(function() {
-		var $el = $('main');
-		var x = Math.random() * $el.outerWidth();
-		var y = Math.random() * $el.outerHeight();
-		var dropRadius = 20;
-		var strength = 0.04 + Math.random() * 0.04;
-
-		$el.ripples('drop', x, y, dropRadius, strength);
-	}, 400);
-});
-</script>
+<script src="scripts/ripples.js"></script>
 
 <audio title="Water Sound" controls autoplay loop id='watersound'>
   <source src="sounds/587759__inchadney__northsea_q2.mp3" type="audio/mp3">
