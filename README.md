@@ -3,7 +3,14 @@ Bloomsday 2022
 
 [![Link to webpage](https://github.com/thompson318/Bloomsday/raw/bd2022/images/bloomsday2022.gif)](https://thompson318.github.io/Bloomsday/)
 
-Inspired by my favourite passage from Ulyses we have an interactive sound and vision experience. 
+
+Inspired by a favourite passage from Ulysses, it's a multi-sensory, interactive, tribute to water and to the writing of James Joyce. Ocean sounds accompany 
+original text with interactive ripple effects (depending on your web browser). In the background the text is read by multiple voices, best listened to in stereo. There is also the opportunity to contribute your own reading of a line of text, to be incorporated into the finished webpage.
+
+Click [here](http://thompson318.github.io/Bloomsday/) to try it out.
+
+With Thanks To
+-------------- 
 [sirxemic](https://github.com/sirxemic/jquery.ripples), provides cool WebGL ripple effects. 
 Ocean sounds courtesy of [Anthousai](https://freesound.org/people/Anthousai/).
 Water image courtesy of [@joke03](https://unsplash.com/@joke03).
@@ -63,18 +70,11 @@ At the time of writing the text is read mainly by machine, [pico2wave](https://w
 | 42 | the noxiousness of its effluvia in lacustrine marshes, pestilential fens, faded flowerwater, stagnant pools in the waning moon. | pico |
 
 
+Some technical stuff
+--------------------
 By the powers of WebGL, add a layer of water to your HTML elements which will ripple by cursor interaction!
 
 Important: this plugin requires the WebGL extension `OES_texture_float` (and `OES_texture_float_linear` for a better effect).
-
-Click [here](http://thompson318.github.io/Bloomsday/) to try it out.
-
-
-Contribute your own recording
------------------------------
-
-
-
 
 Options
 -------
