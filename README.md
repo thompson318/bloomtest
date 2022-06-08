@@ -1,6 +1,8 @@
 Bloomsday 2022
 ==============
 
+[![Link to webpage](https://github.com/thompson318/Bloomsday/raw/bd2022/images/bloomsday2022.gif)](https://thompson318.github.io/Bloomsday/)
+
 Inspired by my favourite passage from Ulyses we have an interactive sound and vision experience. 
 [sirxemic](https://github.com/sirxemic/jquery.ripples), provides cool WebGL ripple effects. 
 Ocean sounds courtesy of [Anthousai](https://freesound.org/people/Anthousai/).
