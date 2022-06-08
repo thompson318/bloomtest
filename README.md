@@ -7,12 +7,12 @@ Ocean sounds courtesy of [Anthousai](https://freesound.org/people/Anthousai/).
 Water image courtesy of [@joke03](https://unsplash.com/@joke03).
 Text by James Joyce, with thanks to [Project Gutenberg](https://www.gutenberg.org/) for the transcription.
 
-Text read by
-------------
+Participate
+-----------
 
-At the time of writing the text is read mainly by [pico2wave](https://www.openhab.org/addons/voice/picotts/) with stereo effects added using
-[ffmpeg](https://ffmpeg.org/). My plan is to add a more diverse set of recorded voices to the mix. To add yours 
-record your favourite line and get in touch.
+I'd like to add human voices, to create a collaboration between humans and machines. 
+At the time of writing the text is read mainly by machine, [pico2wave](https://www.openhab.org/addons/voice/picotts/), with stereo effects added using
+[ffmpeg](https://ffmpeg.org/). To add your voice to the mix please pick a line from those below, record yourself reading it and send it by [email](mailto:s.thompson@ucl.ac.uk) or [twitter](https://twitter.com/intent/tweet?screen_name=stevedoscience). All recordings will be released under a [creative commons 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 
 | Number | Script | Who |
 |--------|--------|-----|
