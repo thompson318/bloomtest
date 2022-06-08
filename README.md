@@ -5,7 +5,7 @@ Bloomsday 2022
 
 
 Inspired by a favourite passage from Ulysses, it's a multi-sensory, interactive, tribute to water and to the writing of James Joyce. Ocean sounds accompany 
-original text with interactive ripple effects (depending on your web browser). In the background the text is read by multiple voices, best listened to in stereo. You may find it soothing, or you may find it annoying. There is also the opportunity to contribute your own reading of a line of text, to be incorporated into the finished webpage.
+original text with interactive ripple effects (depending on your web browser). In the background the text is read by multiple voices, best listened to in stereo. You may find it soothing, you may find it inspiring, or you may find it annoying. If you like you can contribute your own reading of a line of the text, to be incorporated into the finished webpage.
 
 Click [here](http://thompson318.github.io/Bloomsday/) to try it out.
 
