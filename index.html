@@ -26,7 +26,7 @@ main {
 	padding:  0px;
   position: relative;
   top: 2%;
-  height: 95%;
+  height: 93%;
   width: 98%;
   resize: both;
   overflow: scroll;
@@ -85,11 +85,17 @@ a.button {
     appearance: button;
     background: #333;
     color: #fff;
-    vertical-align: top;
+    vertical-align: bottom;
     padding: 0.2em 0.8em;
     text-decoration: none;
+	  font-size: 30px;
+	  margin-top: 20px;
 }
 
+audio {
+  vertical-align: bottom;
+	margin-top: 20px;
+}
 button:hover {
 	background: #888;
 }
@@ -131,6 +137,7 @@ code { font-size: 0.8em; display: inline; }
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="scripts/jquery.ripples.js"></script>
 <script src="scripts/ripples.js"></script>
+<div>
 
 <audio title="Water Sound" controls autoplay loop id='watersound'>
   <source src="sounds/587759__inchadney__northsea_q2.mp3" type="audio/mp3">
@@ -141,6 +148,7 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 <a href="https://github.com/thompson318/Bloomsday#participate" class="button">Participate</a>
+</div>
 <script src="scripts/sounds.js"></script>
 </body>
 </html>
