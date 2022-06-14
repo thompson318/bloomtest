@@ -12,7 +12,7 @@ Click [here](http://thompson318.github.io/Bloomsday/) to try it out.
 With Thanks To
 -------------- 
 [sirxemic](https://github.com/sirxemic/jquery.ripples), provides cool WebGL ripple effects. 
-Ocean sounds courtesy of [Anthousai](https://freesound.org/people/Anthousai/).
+Ocean sounds courtesy of [inchadney](https://freesound.org/people/inchadney/).
 Water image courtesy of [@joke03](https://unsplash.com/@joke03).
 Text by James Joyce, with thanks to [Project Gutenberg](https://www.gutenberg.org/) for the transcription.
 
