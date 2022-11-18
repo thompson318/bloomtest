@@ -1,3 +1,9 @@
+const soundFiles = 43
+const allsounds = []
+const sounds_00 = ['sounds/00_panned.mp3', 'sounds/ulysses_624_pico.mp3']
+
+allsounds.push(sounds_00)
+
 const water = document.getElementById('watersound');
 const narration = document.getElementById('narration');
 const startButton = document.getElementById('startbutton');
@@ -40,9 +46,12 @@ let playAttempt = setInterval(() => {
 
 
 let x = 0
-const soundFiles = 43
 $("#narration").bind("ended", function(){
   x = x + 1
+  console.log("Sound array", allsounds)
+  console.log("Sound array", allsounds[0])
+  console.log("Sound array", allsounds[0][1])
+
   const file = "sounds/" + String(x%soundFiles).padStart(2, '0') + "_panned.mp3"
   console.log("Looking for ", file)
   narration.src = file
