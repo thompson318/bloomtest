@@ -1,6 +1,8 @@
 Bloomsday 2022
 ==============
 
+[![Link to OzCHI](https://img.shields.io/badge/See%20it%20at%20OzCHI-black)](http://www.ozchi.org/2022/creativity.html)
+
 [![Link to webpage](https://github.com/thompson318/Bloomsday/raw/bd2022/images/bloomsday2022.gif)](https://thompson318.github.io/Bloomsday/)
 
 
