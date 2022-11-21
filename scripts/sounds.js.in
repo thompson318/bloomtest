@@ -48,7 +48,7 @@ $("#narration").bind("ended", function(){
   console.log("Sound array", allsounds[x%soundFiles])
   const pick_one = Math.round(Math.random() * (allsounds[x%soundFiles].length-1))
 
-  const file = allsounds[x][pick_one]
+  const file = allsounds[x%soundFiles][pick_one]
   console.log("Looking for ", file)
   narration.src = file
   narration.pause()
