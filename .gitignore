@@ -5,6 +5,7 @@ npm-debug.log*
 
 *.wav
 build/*
+scripts/sounds.js
 
 
 # Runtime data

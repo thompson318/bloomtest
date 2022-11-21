@@ -21,3 +21,4 @@ do
 	sound=$(($sound + 1))
 done
 
+cat scripts/sounds.js.in 
