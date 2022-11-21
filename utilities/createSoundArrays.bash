@@ -1,4 +1,6 @@
 #! /bin/bash
+#searches the sounds directory for files matching [0-9][0-9]_*.mp3 and 
+#writes then out as a javascript array that can be prepended to sounds.js
 
 lastSound=$(ls sounds/[0-9][0-9]_*.mp3 | sort -g | tail -n 1)
 lastSound=$(basename $lastSound)

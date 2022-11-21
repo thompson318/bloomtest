@@ -7,7 +7,8 @@ do
 	outname0=${file%.*}_panned.wav
 	outname1=${file%.*}_panned.mp3
 	echo $right_sound $left_sound $outname
-	echo "ffmpeg -i $file -af pan='stereo|c0=$right_sound*c0|c1=${left_sound}*c0' $outname0" >> runit.bash
+	echo "ffmpeg-normalize -t -20.2 -c:a pcm_u8 $file -o normalized/$file" >> runit.bash
+	echo "ffmpeg -i normalized/$file -af pan='stereo|c0=$right_sound*c0|c1=${left_sound}*c0' $outname0" >> runit.bash
 	echo "ffmpeg -i $outname0 -codec:a libmp3lame -qscale:a 2 $outname1" >> runit.bash 
 done
 
