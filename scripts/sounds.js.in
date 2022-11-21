@@ -45,11 +45,10 @@ let playAttempt = setInterval(() => {
 let x = 0
 $("#narration").bind("ended", function(){
   x = x + 1
-  console.log("Sound array", allsounds)
-  console.log("Sound array", allsounds[0])
-  console.log("Sound array", allsounds[0][1])
+  console.log("Sound array", allsounds[x%soundFiles])
+  const pick_one = Math.round(Math.random() * (allsounds[x%soundFiles].length-1))
 
-  const file = "sounds/" + String(x%soundFiles).padStart(2, '0') + "_panned.mp3"
+  const file = allsounds[x][pick_one]
   console.log("Looking for ", file)
   narration.src = file
   narration.pause()
