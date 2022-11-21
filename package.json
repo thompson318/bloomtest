@@ -12,8 +12,8 @@
     "maelstroms"
   ],
   "scripts": {
-    "build": "bash utilities/make_sound.js > scripts/sounds.js && rollup -c build/rollup.config.js && cp -r index.html scripts/ images/ sounds/ build/",
-    "build-min": "bash utilities/make_sound.js > scripts/sounds.js && rollup -c build/rollup.config-min.js && cp -r index.html images/ sounds/ build/",
+    "build": "bash utilities/make_sound.js > scripts/sounds.js && rollup -c build/rollup.config.js && cp -r index.html scripts/ images/ sounds/ build/ && rm build/scripts/sounds.js.in",
+    "build-min": "bash utilities/make_sound.js > scripts/sounds.js && rollup -c build/rollup.config-min.js && cp -r index.html images/ sounds/ build/ && rm build/scripts/sounds.js.in",
     "version": "npm run build && npm run build-min && git add -A dist",
     "postversion": "git push && git push --tags"
   },
