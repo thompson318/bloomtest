@@ -1,3 +1,9 @@
+//This file will not run on it's own, to make the runnable version use
+//bash utilities/createSoundArrays.bash > scripts/sounds.js
+
+const urlString = window.location.href
+const url = new URL(urlString)
+
 const water = document.getElementById('watersound');
 const narration = document.getElementById('narration');
 const startButton = document.getElementById('startbutton');
@@ -40,10 +46,16 @@ let playAttempt = setInterval(() => {
 
 
 let x = 0
-const soundFiles = 43
 $("#narration").bind("ended", function(){
   x = x + 1
-  const file = "sounds/" + String(x%soundFiles).padStart(2, '0') + "_panned.mp3"
+
+  const nohumans = url.searchParams.get('nohumans')
+  let pick_one = 0
+  if ( nohumans == null ) {
+    pick_one = Math.round(Math.random() * (allsounds[x%soundFiles].length-1))
+  }
+
+  const file = allsounds[x%soundFiles][pick_one]
   console.log("Looking for ", file)
   narration.src = file
   narration.pause()
