@@ -15,7 +15,7 @@ while [ $sound -le $numberOfSounds ]
 do
 	number=$(printf '%02d' $sound)
 	theseSounds=$(ls sounds/${number}_*.mp3 | sed -e "s/^/'/" | sed -e "s/$/'/" | sed -e "s/ /, /")
-	theseSounds=$(echo $theseSounds | sed -e "s/ /, /")
+	theseSounds=$(echo $theseSounds | sed -e "s/ /, /g")
 	echo "const sounds_${number} = [ $theseSounds ]"
 	echo "allsounds.push(sounds_${number})"
 	sound=$(($sound + 1))
