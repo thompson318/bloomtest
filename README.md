@@ -21,55 +21,55 @@ Text by James Joyce, with thanks to [Project Gutenberg](https://www.gutenberg.or
 Participate
 -----------
 
-I'd like to add human voices, to create a collaboration between humans and machines. 
+I'd like to add more voices both human and synthesised, creating a collaboration between humans and machines. 
 At the time of writing the text is read mainly by machine, [pico2wave](https://www.openhab.org/addons/voice/picotts/), with stereo effects added using
-[ffmpeg](https://ffmpeg.org/). To add your voice to the mix please pick a line from those below, record yourself reading it and send it by [email](mailto:s.thompson@ucl.ac.uk) or [twitter](https://twitter.com/intent/tweet?screen_name=stevedoscience). All recordings will be released under a [creative commons 4.0 license](https://creativecommons.org/licenses/by/4.0/). If multiple voices are available for the same line, then one voice is randomly picked on each repeat run. You can turn off the human voices with the html option ?nohumans
+[ffmpeg](https://ffmpeg.org/). To add your voice to the mix please pick a line from those below, record yourself (or your computer) reading it and send it by [email](mailto:s.thompson@ucl.ac.uk) or [twitter](https://twitter.com/intent/tweet?screen_name=stevedoscience). All recordings will be released under a [creative commons 4.0 license](https://creativecommons.org/licenses/by/4.0/). If multiple voices are available for the same line, then one voice is randomly picked on each repeat run. You can turn off the human voices with the html option ?nohumans
 
-| Number | Script | Who |
-|--------|--------|-----|
-| 00 | What in water did Bloom, waterlover, drawer of water, watercarrier, returning to the range, admire? | pico |
-| 01 | Its universality: | pico |
-| 02 | its democratic equality and constancy to its nature in seeking its own level: | pico |
-| 03 | its vastness in the ocean of Mercator’s projection: | pico |
-| 04 | its unplumbed profundity in the Sundam trench of the Pacific exceeding 8000 fathoms: | pico |
-| 05 | the restlessness of its waves and surface particles visiting in turn all points of its seaboard: | pico |
-| 06 | the independence of its units: | pico |
-| 07 | the variability of states of sea: | pico |
-| 08 | its hydrostatic quiescence in calm: | pico |
-| 09 | its hydrokinetic turgidity in neap and spring tides: | pico |
-| 10 | its subsidence after devastation: | pico |
-| 11 | its sterility in the circumpolar icecaps, arctic and antarctic: | pico |
-| 12 | its climatic and commercial significance: | pico |
-| 13 | its preponderance of 3 to 1 over the dry land of the globe: | pico |
-| 14 | its indisputable hegemony extending in square leagues over all the region below the subequatorial tropic of Capricorn: | pico |
-| 15 | the multisecular stability of its primeval basin: | pico |
-| 16 | its luteofulvous bed: | pico |
-| 17 | its capacity to dissolve and hold in solution all soluble substances including millions of tons of the most precious metals: | pico |
-| 18 | its slow erosions of peninsulas and islands, its persistent formation of homothetic islands, peninsulas and downwardtending promontories: | pico |
-| 19 | its alluvial deposits: | pico |
-| 20 | its weight and volume and density: | pico |
-| 21 | its imperturbability in lagoons and highland tarns: | pico |
-| 22 | its gradation of colours in the torrid and temperate and frigid zones: | pico |
-| 23 | its vehicular ramifications in continental lakecontained streams and confluent oceanflowing rivers with their tributaries and transoceanic currents, gulfstream, north and south equatorial courses: | pico |
-| 24 | its violence in seaquakes, waterspouts, Artesian wells, eruptions, torrents, eddies, freshets, spates, groundswells, watersheds, waterpartings, geysers, cataracts, whirlpools, maelstroms, inundations, deluges, cloudbursts: | pico |
-| 25 | its vast circumterrestrial ahorizontal curve: | pico |
-| 26 | its secrecy in springs and latent humidity, revealed by rhabdomantic or hygrometric instruments and exemplified by the well by the hole in the wall at Ashtown gate, saturation of air, distillation of dew: | pico |
-| 27 | the simplicity of its composition, two constituent parts of hydrogen with one constituent part of oxygen: | pico |
-| 28 | its healing virtues: | pico |
-| 29 | its buoyancy in the waters of the Dead Sea: | pico |
-| 30 | its persevering penetrativeness in runnels, gullies, inadequate dams, leaks on shipboard: | pico |
-| 31 | its properties for cleansing, quenching thirst and fire, nourishing vegetation: | pico |
-| 32 | its infallibility as paradigm and paragon: | pico |
-| 33 | its metamorphoses as vapour, mist, cloud, rain, sleet, snow, hail: | pico |
-| 34 | its strength in rigid hydrants: | pico |
-| 35 | its variety of forms in loughs and bays and gulfs and bights and guts and lagoons and atolls and archipelagos and sounds and fjords and minches and tidal estuaries and arms of sea: | pico |
-| 36 | its solidity in glaciers, icebergs, icefloes: | pico |
-| 37 | its docility in working hydraulic millwheels, turbines, dynamos, electric power stations, bleachworks, tanneries, scutchmills: | pico |
-| 38 | its utility in canals, rivers, if navigable, floating and graving docks: | pico |
-| 39 | its potentiality derivable from harnessed tides or watercourses falling from level to level: | pico |
-| 40 | its submarine fauna and flora (anacoustic, photophobe), numerically, if not literally, the inhabitants of the globe: | pico |
-| 41 | its ubiquity as constituting 90 % of the human body: | pico |
-| 42 | the noxiousness of its effluvia in lacustrine marshes, pestilential fens, faded flowerwater, stagnant pools in the waning moon. | pico |
+| Number | Script |
+|--------|--------|
+| 00 | What in water did Bloom, waterlover, drawer of water, watercarrier, returning to the range, admire? |
+| 01 | Its universality: |
+| 02 | its democratic equality and constancy to its nature in seeking its own level: |
+| 03 | its vastness in the ocean of Mercator’s projection: |
+| 04 | its unplumbed profundity in the Sundam trench of the Pacific exceeding 8000 fathoms: |
+| 05 | the restlessness of its waves and surface particles visiting in turn all points of its seaboard: |
+| 06 | the independence of its units: |
+| 07 | the variability of states of sea: |
+| 08 | its hydrostatic quiescence in calm: |
+| 09 | its hydrokinetic turgidity in neap and spring tides: |
+| 10 | its subsidence after devastation: |
+| 11 | its sterility in the circumpolar icecaps, arctic and antarctic: |
+| 12 | its climatic and commercial significance: |
+| 13 | its preponderance of 3 to 1 over the dry land of the globe: |
+| 14 | its indisputable hegemony extending in square leagues over all the region below the subequatorial tropic of Capricorn: |
+| 15 | the multisecular stability of its primeval basin: |
+| 16 | its luteofulvous bed: |
+| 17 | its capacity to dissolve and hold in solution all soluble substances including millions of tons of the most precious metals: |
+| 18 | its slow erosions of peninsulas and islands, its persistent formation of homothetic islands, peninsulas and downwardtending promontories: |
+| 19 | its alluvial deposits: |
+| 20 | its weight and volume and density: |
+| 21 | its imperturbability in lagoons and highland tarns: |
+| 22 | its gradation of colours in the torrid and temperate and frigid zones: |
+| 23 | its vehicular ramifications in continental lakecontained streams and confluent oceanflowing rivers with their tributaries and transoceanic currents, gulfstream, north and south equatorial courses: |
+| 24 | its violence in seaquakes, waterspouts, Artesian wells, eruptions, torrents, eddies, freshets, spates, groundswells, watersheds, waterpartings, geysers, cataracts, whirlpools, maelstroms, inundations, deluges, cloudbursts: |
+| 25 | its vast circumterrestrial ahorizontal curve: |
+| 26 | its secrecy in springs and latent humidity, revealed by rhabdomantic or hygrometric instruments and exemplified by the well by the hole in the wall at Ashtown gate, saturation of air, distillation of dew: |
+| 27 | the simplicity of its composition, two constituent parts of hydrogen with one constituent part of oxygen: |
+| 28 | its healing virtues: |
+| 29 | its buoyancy in the waters of the Dead Sea: |
+| 30 | its persevering penetrativeness in runnels, gullies, inadequate dams, leaks on shipboard: |
+| 31 | its properties for cleansing, quenching thirst and fire, nourishing vegetation: |
+| 32 | its infallibility as paradigm and paragon: |
+| 33 | its metamorphoses as vapour, mist, cloud, rain, sleet, snow, hail: |
+| 34 | its strength in rigid hydrants: |
+| 35 | its variety of forms in loughs and bays and gulfs and bights and guts and lagoons and atolls and archipelagos and sounds and fjords and minches and tidal estuaries and arms of sea: |
+| 36 | its solidity in glaciers, icebergs, icefloes: |
+| 37 | its docility in working hydraulic millwheels, turbines, dynamos, electric power stations, bleachworks, tanneries, scutchmills: |
+| 38 | its utility in canals, rivers, if navigable, floating and graving docks: |
+| 39 | its potentiality derivable from harnessed tides or watercourses falling from level to level: |
+| 40 | its submarine fauna and flora (anacoustic, photophobe), numerically, if not literally, the inhabitants of the globe: |
+| 41 | its ubiquity as constituting 90 % of the human body: |
+| 42 | the noxiousness of its effluvia in lacustrine marshes, pestilential fens, faded flowerwater, stagnant pools in the waning moon. |
 
 
 Some technical stuff
